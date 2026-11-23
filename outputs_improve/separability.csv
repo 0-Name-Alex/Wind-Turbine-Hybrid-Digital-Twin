@@ -1,0 +1,13 @@
+dataset,fault,expected component,its peak in fault window,"same component, max on healthy turbines",ratio (expected),best component,ratio (best)
+0,Generator bearing failure,Generator bearings,5.2,8.2,0.64,Nacelle cabinets,1.24
+10,Gearbox failure,Gearbox,0.8,4.6,0.18,Nacelle cabinets,3.36
+22,Hydraulic group,Hub / pitch,17.7,9.3,1.9,Hub / pitch,1.9
+26,Hydraulic group,Hydraulic group,2.4,6.7,0.35,Nacelle cabinets,0.48
+40,Generator bearing failure,Generator bearings,21.2,8.2,2.58,Nacelle cabinets,3.21
+42,Hydraulic group,Hub / pitch,19.1,9.3,2.04,Whole turbine (AE),2.48
+45,Hydraulic group,Hydraulic group,2.8,6.7,0.41,Whole turbine (AE),1.61
+51,Gearbox bearings damaged,Gearbox,2.4,4.6,0.51,Whole turbine (AE),1.19
+68,Transformer failure,Transformer,2.8,7.5,0.37,Converter,1.22
+72,Gearbox failure,Gearbox,1.2,4.6,0.27,Nacelle cabinets,0.68
+73,Hydraulic group,Hub / pitch,4.5,9.3,0.48,Nacelle cabinets,1.48
+84,Hydraulic group,Hub / pitch,12.2,9.3,1.31,Hub / pitch,1.31

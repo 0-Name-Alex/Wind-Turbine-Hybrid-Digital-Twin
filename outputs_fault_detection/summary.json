@@ -1,0 +1,30 @@
+{
+  "anomaly_datasets": 12,
+  "normal_datasets": 10,
+  "detected": 5,
+  "missed": 7,
+  "detection_rate": 0.417,
+  "normal_datasets_with_false_alarm": 0,
+  "event_precision": 1.0,
+  "event_F1": 0.588,
+  "mean_lead_time_days": 3.23,
+  "median_lead_time_days": 1.02,
+  "mean_normal_accuracy": 1.0,
+  "mean_event_coverage": 0.025,
+  "diagnosis_correct": "4/5",
+  "settings": {
+    "farm_dir": "d:\\Projects\\RET -- Claude\\CARE_To_Compare\\CARE_To_Compare\\Wind Farm A",
+    "out": null,
+    "datasets": null,
+    "smooth_hours": 6,
+    "threshold_q": 0.995,
+    "min_threshold": 9.0,
+    "crit_limit": 18,
+    "calib_frac": 0.2,
+    "save_models": false,
+    "no_ae": false,
+    "max_fit_rows": 25000,
+    "sweep_only": false,
+    "use_status_in_prediction": false
+  }
+}

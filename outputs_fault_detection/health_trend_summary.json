@@ -1,0 +1,13 @@
+{
+  "anomaly_datasets": 12,
+  "normal_datasets": 10,
+  "faults_with_trend_warning": 5,
+  "faults_with_alarm": 5,
+  "median_hours_trend_before_alarm": 2.25,
+  "normal_datasets_with_trend_warning": 5,
+  "settings": {
+    "scores": null,
+    "horizon_hours": 24,
+    "window_hours": 24
+  }
+}

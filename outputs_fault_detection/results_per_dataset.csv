@@ -1,0 +1,23 @@
+dataset_id,asset,label,fault,threshold,n_models,pred_status_normal_share,false_alarm,false_alarm_hours,normal_accuracy,detected,event_coverage,first_alarm,lead_time_days,top_sensor,diagnosed_subsystem,expected_subsystem,diagnosis_correct
+0,0,anomaly,Generator bearing failure,9.0,28,0.101,False,0.0,1.0,False,0.0,,,,,,
+3,10,normal,,9.0,28,1.0,False,0.0,1.0,,,,,,,,
+10,10,anomaly,Gearbox failure,9.0,28,0.0,False,0.0,1.0,True,0.024,2023-10-12 09:00:00,5.99,,Nacelle cabinets,Gearbox,False
+13,21,normal,,9.0,28,1.0,False,0.0,1.0,,,,,,,,
+14,13,normal,,9.0,28,1.0,False,0.0,1.0,,,,,,,,
+17,10,normal,,9.0,28,1.0,False,0.0,1.0,,,,,,,,
+22,21,anomaly,Hydraulic group,9.0,28,0.0,False,0.0,,True,0.023,2023-08-19 09:00:00,0.04,,Hub / pitch,Hydraulic group / Hub / pitch,True
+24,0,normal,,9.0,28,1.0,False,0.0,1.0,,,,,,,,
+25,11,normal,,9.0,28,1.0,False,0.0,1.0,,,,,,,,
+26,0,anomaly,Hydraulic group,9.0,28,0.001,False,0.0,,False,0.0,,,,,,
+38,13,normal,,9.0,28,1.0,False,0.0,1.0,,,,,,,,
+40,10,anomaly,Generator bearing failure,9.0,28,0.54,False,0.0,1.0,True,0.18,2023-01-17 18:00:00,8.79,,Generator bearings,Generator bearings,True
+42,10,anomaly,Hydraulic group,9.0,28,0.092,False,0.0,,True,0.04,2023-09-16 08:40:00,0.3,,Hub / pitch,Hydraulic group / Hub / pitch,True
+45,13,anomaly,Hydraulic group,9.0,28,0.0,False,0.0,1.0,False,0.0,,,,,,
+51,21,anomaly,Gearbox bearings damaged,9.0,28,0.019,False,0.0,1.0,False,0.0,,,,,,
+68,11,anomaly,Transformer failure,9.0,28,0.0,False,0.0,,False,0.0,,,,,,
+69,11,normal,,9.0,28,1.0,False,0.0,1.0,,,,,,,,
+71,0,normal,,9.0,28,1.0,False,0.0,1.0,,,,,,,,
+72,21,anomaly,Gearbox failure,9.0,28,0.072,False,0.0,1.0,False,0.0,,,,,,
+73,0,anomaly,Hydraulic group,9.0,28,0.0,False,0.0,1.0,False,0.0,,,,,,
+84,13,anomaly,Hydraulic group,9.0,28,0.0,False,0.0,1.0,True,0.028,2023-09-11 15:00:00,1.02,,Hub / pitch,Hydraulic group / Hub / pitch,True
+92,11,normal,,9.0,28,1.0,False,0.0,1.0,,,,,,,,

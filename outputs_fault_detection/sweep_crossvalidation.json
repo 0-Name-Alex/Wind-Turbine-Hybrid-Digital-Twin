@@ -1,0 +1,13 @@
+{
+  "detected": 4,
+  "anomaly_datasets": 12,
+  "balanced_accuracy": 0.667,
+  "normal_with_false_alarm": 0,
+  "normal_datasets": 10,
+  "anomaly_with_alarm_before_fault": 0,
+  "event_F1": 0.5,
+  "most_chosen_setting": [
+    9.0,
+    3.0
+  ]
+}

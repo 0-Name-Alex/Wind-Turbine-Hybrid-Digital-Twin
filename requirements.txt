@@ -1,0 +1,11 @@
+# Only needed if you use pip instead of conda:  pip install -r requirements.txt
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+streamlit
+plotly
+jupyterlab
+ipykernel
+ipywidgets

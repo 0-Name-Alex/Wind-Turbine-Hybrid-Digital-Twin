@@ -1,0 +1,85 @@
+<svg id="d" xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800">
+<defs>
+  <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#4a4945"></path></marker>
+  <style>
+    .t{font-size:23px;font-weight:700;fill:#1f1e1c}
+    .s{font-size:17px;fill:#4a4945}
+    .h{font-size:14px;font-weight:700;letter-spacing:1.5px;fill:#6b6a64}
+    .ln{stroke:#4a4945;stroke-width:2;fill:none;marker-end:url(#a)}
+    .dash{stroke:#4a4945;stroke-width:2;fill:none;stroke-dasharray:6 5;marker-end:url(#a)}
+  </style>
+</defs>
+<text x="40" y="52" style="font-size:30px;font-weight:700;fill:#1f1e1c">Wind Turbine Digital Twin</text>
+<text x="40" y="84" class="s">Real data from 5 wind turbines, recorded every 10 minutes</text>
+
+<text x="40" y="132" class="h">1 · DATA</text>
+<text x="390" y="132" class="h">2 · TWO MODELS OF THE TURBINE</text>
+<text x="905" y="132" class="h">3 · COMPARE</text>
+<text x="1215" y="132" class="h">4 · DASHBOARD</text>
+
+<!-- 1 DATA -->
+<rect x="40" y="152" width="290" height="150" rx="14" fill="#eef1f5" stroke="#9aa6b5" stroke-width="1.5"></rect>
+<text x="60" y="190" class="t">Turbine data</text>
+<text x="60" y="224" class="s">Wind speed, power,</text>
+<text x="60" y="248" class="s">blade speed and</text>
+<text x="60" y="272" class="s">part temperatures</text>
+
+<rect x="40" y="380" width="290" height="150" rx="14" fill="#eef1f5" stroke="#9aa6b5" stroke-width="1.5"></rect>
+<text x="60" y="418" class="t">Clean the data</text>
+<text x="60" y="452" class="s">Remove wrong readings</text>
+<text x="60" y="476" class="s">and gaps, line up</text>
+<text x="60" y="500" class="s">the times</text>
+<path class="ln" d="M185 302 V375"></path>
+
+<!-- 2a learned model -->
+<rect x="390" y="152" width="440" height="230" rx="14" fill="#e3effc" stroke="#2a78d6" stroke-width="2"></rect>
+<text x="410" y="190" class="t">Learning model (Python)</text>
+<text x="410" y="228" class="s">• Predicts power from the wind</text>
+<text x="410" y="258" class="s">• Forecasts the next 3 hours</text>
+<text x="410" y="288" class="s">• Spots unusual behaviour</text>
+<text x="410" y="318" class="s">• Tracks the health of each part</text>
+<text x="410" y="358" class="s" style="font-weight:700;fill:#1c5cab">Learns what "normal" looks like</text>
+
+<!-- 2b physics model -->
+<rect x="390" y="430" width="440" height="230" rx="14" fill="#fdeee6" stroke="#eb6834" stroke-width="2"></rect>
+<text x="410" y="468" class="t">Physics model (MATLAB)</text>
+<text x="410" y="506" class="s">• Wind → blades → power</text>
+<text x="410" y="536" class="s">• Power → heat → part temperatures</text>
+<text x="410" y="566" class="s">• Tuned to a healthy turbine</text>
+<text x="410" y="596" class="s">• Faults added on purpose to test it</text>
+<text x="410" y="636" class="s" style="font-weight:700;fill:#b4471c">Calculates what it "should" be</text>
+
+<path class="ln" d="M330 455 H360 V267 H385"></path>
+<path class="ln" d="M360 455 V545 H385"></path>
+
+<!-- test turbine -->
+<rect x="390" y="700" width="440" height="66" rx="12" fill="#ffffff" stroke="#9aa6b5" stroke-width="1.5" stroke-dasharray="6 5"></rect>
+<text x="410" y="729" class="t" style="font-size:18px">Test turbine</text>
+<text x="410" y="753" class="s" style="font-size:15px">Made-up data with added faults, to try the model</text>
+<path class="dash" d="M390 733 H372 V330 H385"></path>
+
+<!-- 3 compare -->
+<rect x="905" y="330" width="250" height="170" rx="14" fill="#e3f6ee" stroke="#1baf7a" stroke-width="2"></rect>
+<text x="925" y="368" class="t">Compare</text>
+<text x="925" y="404" class="s">Real vs expected</text>
+<text x="925" y="448" class="s" style="font-weight:700">→ Fault alert</text>
+<text x="925" y="474" class="s" style="font-weight:700">→ Faulty part</text>
+<path class="ln" d="M830 267 H880 V390 H900"></path>
+<path class="ln" d="M830 545 H880 V440 H900"></path>
+
+<!-- 4 dashboard -->
+<rect x="1215" y="152" width="345" height="508" rx="14" fill="#ffffff" stroke="#1f1e1c" stroke-width="2"></rect>
+<text x="1235" y="190" class="t">Dashboard</text>
+<g class="s">
+<rect x="1235" y="212" width="305" height="50" rx="9" fill="#f3f4f6"></rect><text x="1252" y="243">Live overview</text>
+<rect x="1235" y="272" width="305" height="50" rx="9" fill="#f3f4f6"></rect><text x="1252" y="303">Power and forecast</text>
+<rect x="1235" y="332" width="305" height="50" rx="9" fill="#f3f4f6"></rect><text x="1252" y="363">Faults and what to do</text>
+<rect x="1235" y="392" width="305" height="50" rx="9" fill="#f3f4f6"></rect><text x="1252" y="423">Health of each part</text>
+<rect x="1235" y="452" width="305" height="50" rx="9" fill="#f3f4f6"></rect><text x="1252" y="483">3D turbine view</text>
+<rect x="1235" y="512" width="305" height="50" rx="9" fill="#f3f4f6"></rect><text x="1252" y="543">Reports</text>
+</g>
+<text x="1235" y="602" class="s" style="font-weight:700">Shows: power, alarms,</text>
+<text x="1235" y="626" class="s" style="font-weight:700">faulty part, repair advice</text>
+<path class="ln" d="M1155 415 H1210"></path>
+</svg>

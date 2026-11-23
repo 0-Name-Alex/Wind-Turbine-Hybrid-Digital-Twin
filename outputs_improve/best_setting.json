@@ -1,0 +1,20 @@
+{
+  "best_variant": "A  v1 as reported (6 h)",
+  "cv_detected": 4,
+  "cv_false_alarms": 0,
+  "cv_balanced_accuracy": 0.667,
+  "uses_v2_models": false,
+  "physics_signals": false,
+  "smoothing_hours": 6,
+  "components_switched_off": {},
+  "still_missed_datasets": [
+    0,
+    10,
+    26,
+    45,
+    51,
+    68,
+    72,
+    73
+  ]
+}

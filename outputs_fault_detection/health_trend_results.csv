@@ -1,0 +1,23 @@
+dataset_id,label,trend_warning_in_window,alarm_in_window,early_trend_warning_before_window,trend_subsystem,false_trend_warning,hours_earlier_than_alarm
+0,anomaly,True,False,False,Hub / pitch,,
+3,normal,,,,,True,
+10,anomaly,True,True,False,Nacelle cabinets,,5.7
+13,normal,,,,,True,
+14,normal,,,,,False,
+17,normal,,,,,False,
+22,anomaly,False,True,False,,,
+24,normal,,,,,True,
+25,normal,,,,,False,
+26,anomaly,False,False,False,,,
+38,normal,,,,,False,
+40,anomaly,True,True,False,Whole turbine (AE),,-1.2
+42,anomaly,True,True,False,Generator windings,,68.0
+45,anomaly,False,False,False,,,
+51,anomaly,False,False,False,,,
+68,anomaly,False,False,False,,,
+69,normal,,,,,True,
+71,normal,,,,,True,
+72,anomaly,False,False,False,,,
+73,anomaly,False,False,True,,,
+84,anomaly,True,True,False,Hub / pitch,,-1.8
+92,normal,,,,,False,

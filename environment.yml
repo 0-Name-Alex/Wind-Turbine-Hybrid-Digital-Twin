@@ -1,0 +1,18 @@
+# Conda environment for the RET wind turbine digital twin
+#   new environment :  conda env create -f environment.yml
+#   existing "ret"  :  conda env update -n ret -f environment.yml
+name: ret
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - joblib
+  - streamlit
+  - plotly
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
